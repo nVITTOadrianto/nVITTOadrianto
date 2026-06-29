@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicholas Vitto Adrianto - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nicholas Vitto Adrianto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="section d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-10 col-sm-8 col-md-4 text-center mb-4 mb-md-0">
+                    <img src="img/foto.jpg" alt="Your Photo" class="about-img shadow img-fluid" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div
+                        class="d-flex flex-column align-items-center mb-4 text-center text-md-start align-items-md-start">
+                        <h1 class="mb-3 fw-bold">Hi There! :)</h1>
+                        <h3 class="mb-3" id="blue-text">Nicholas Vitto Adrianto</h3>
+                        <h5 class="mb-3">
+                            Data Scientist | Web Developer | AI/ML Enthusiast
+                        </h5>
+                        <p class="fs-6 fs-md-5" id="intro-text">
+                            I am a Computer Science fresh graduate who has great passion and
+                            interest in data science, web developing, database management, and
+                            AI/ML. I am curious and open to learn new things and gain
+                            experience from it. I am a great believer of great communication
+                            in a team. I can quickly adapt towards the professional
+                            environment, and a great problem-solver. If you're interested in
+                            my works and want to work together, please get in touch by
+                            reaching out by going to the Contact section of this site:
+                        </p>
+                        <a href="#contact" class="btn btn-primary mt-3 px-5 fw-bold">Get in Touch</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Projects I've Done</h2>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/llama.png" class="card-img-top" alt="Llama Logo" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Llama 3.1 Fake Review Detection Model</h5>
+                            <p class="card-text flex-grow-1">
+                                This project is used as a thesis project for my bachelor's degree. It involves
+                                fine-tuning the Llama 3.1 8B model to create a fake review detection model. The
+                                model is trained based on a dataset of 50:50 real and fake reviews.
+                            </p>
+                            <div class="d-flex flex-column gap-2 mt-auto">
+                                <a href="https://www.kaggle.com/code/nvittoa03/llama-3-1-8b-fake-review-detection-on-e-commerce"
+                                    class="btn btn-primary">
+                                    <i class="bi bi-journal-code me-1"></i>
+                                    View on Kaggle Notebook
+                                </a>
+                                <a href="https://huggingface.co/nvittoa03/llama-3.1-8b-fake-review-detection"
+                                    class="btn btn-primary">
+                                    <i class="bi bi-emoji-smile me-1"></i>
+                                    View on Huggingface
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/churnguard.png" class="card-img-top" alt="ChurnGuard Prediction Screen" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">ChurnGuard</h5>
+                            <p class="card-text flex-grow-1">
+                                ChurnGuard is a data science project made as a final semester exam for Data Science
+                                Project college subject. This project is a web application for predicting customer
+                                churn using Random Forest Classifier. It is built with Flask framework, with a simple
+                                user interface to input customer data and outputs the churn prediction.
+                            </p>
+                            <a href="https://github.com/nVITTOadrianto/ChurnGuard" class="btn btn-primary mt-auto">
+                                <i class="bi bi-git me-1"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/attritionapp.png" class="card-img-top" alt="Attrition App Dashboard" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Attrition App</h5>
+                            <p class="card-text flex-grow-1">
+                                Attrition App is a data science project made as a first project for Data Science
+                                Project college subject. This project is a web application that has a dashboard of
+                                visualization built with Google Looker (now called Google Data Studio) and prediction
+                                for employee attrition using Random Forest Classifier. It is built with Flask
+                                framework, with a simple user interface to input employee data and outputs the
+                                attrition prediction.
+                            </p>
+                            <a href="https://github.com/nVITTOadrianto/aplikasipi" class="btn btn-primary mt-auto">
+                                <i class="bi bi-git me-1"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/aplikasipi.png" class="card-img-top" alt="AplikasiPI Homepage" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">AplikasiPI</h5>
+                            <p class="card-text flex-grow-1">
+                                AplikasiPI is a web application made for an internship at Dinas Perindustrian &
+                                Perdagangan Provinsi Lampung. It is built with Laravel framework and Bootstrap that
+                                allows users to automate letters and manage inboxes and outboxes.
+                            </p>
+                            <a href="https://github.com/nVITTOadrianto/aplikasipi" class="btn btn-primary mt-auto">
+                                <i class="bi bi-git me-1"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/mailflow.png" class="card-img-top" alt="Mailflow Home Page" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Mailflow</h5>
+                            <p class="card-text flex-grow-1">Mailflow is a web application made for Information System
+                                Analysis & Design subject in college. This project is a team-based project where we
+                                developed an email management system for Kedaton District in Bandar Lampung. This app is
+                                made with PHP with no framework used.</p>
+                            <a href="https://github.com/nVITTOadrianto/mailflow" class="btn btn-primary mt-auto">
+                                <i class="bi bi-git me-1"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/restogo.png" class="card-img-top" alt="Resto.go Home Page" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Resto.go</h5>
+                            <p class="card-text flex-grow-1">Resto.go is a web application made for Advanced Web
+                                Programming subject in college. This project is a team-based project where we developed
+                                a restaurant management system. This app is made with Laravel framework.</p>
+                            <a href="https://github.com/ElsaDwiAgresty/web-lanjut-teori/tree/dev"
+                                class="btn btn-primary mt-auto">
+                                <i class="bi bi-git me-1"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experiences" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Experiences</h2>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-camera fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Videographer (Part-Time)</h5>
+                    <h6 class="mb-2 experience-subtitle">SSCI Lampung Membangun (January 2023 - Present)</h6>
+                    <p class="experience-desc">
+                        - Visited client's location in the Lampung Province area for a promotional video project.
+                        <br />
+                        - Coordinated with the client to ensure the video met their expectations and requirements.
+                        <br />
+                        - Recorded promotional videos for the client with the talent on the location.
+                        <br />
+                        - Helped direct the shooting of the promotional video to ensure the quality of the video.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-code fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Web Developer Intern</h5>
+                    <h6 class="mb-2 experience-subtitle">Dinas Perindustrian dan Perdagangan Provinsi Lampung (June 2025
+                        - August 2025)</h6>
+                    <p class="experience-desc">
+                        - Coordinated with the Industrial Empowerment Department on analyzing business requirements to
+                        develop a web application.
+                        <br />
+                        - Designed, developed, and deployed an mail management web application for the Industrial
+                        Empowerment Department.
+                        <br />
+                        - Presented and demonstrated the finished application to the employees of the Industrial
+                        Empowerment Department.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-lightbulb fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Assistant Lecturer Coordinator, Declarative Programming</h5>
+                    <h6 class="mb-2 experience-subtitle">University of Lampung (February 2025 - June 2025)</h6>
+                    <p class="experience-desc">
+                        - Developed predictive models using Python and machine learning
+                        techniques to analyze customer data, resulting in a 15% increase in sales.
+                        <br />
+                        - Collaborated with cross-functional teams to implement data-driven
+                        solutions, improving operational efficiency by 10%.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-lightbulb fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Assistant Lecturer, Interpretive Programming</h5>
+                    <h6 class="mb-2 experience-subtitle">University of Lampung (August 2024 - December 2024)</h6>
+                    <p class="experience-desc">
+                        - Developed predictive models using Python and machine learning
+                        techniques to analyze customer data, resulting in a 15% increase in sales.
+                        <br />
+                        - Collaborated with cross-functional teams to implement data-driven
+                        solutions, improving operational efficiency by 10%.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-lightbulb fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Assistant Lecturer, Data Structure & Algorithm</h5>
+                    <h6 class="mb-2 experience-subtitle">University of Lampung (February 2024 - June 2024)</h6>
+                    <p class="experience-desc">
+                        - Developed predictive models using Python and machine learning
+                        techniques to analyze customer data, resulting in a 15% increase in sales.
+                        <br />
+                        - Collaborated with cross-functional teams to implement data-driven
+                        solutions, improving operational efficiency by 10%.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Item -->
+            <div class="d-flex mb-4 text-white experience-item">
+                <div
+                    class="experience-icon bg-info rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-lightbulb fs-4"></i>
+                </div>
+                <div>
+                    <h5 class="experience-title">Assistant Lecturer</h5>
+                    <h6 class="mb-2 experience-subtitle">University of Lampung (August 2023 - December 2023)</h6>
+                    <p class="experience-desc">
+                        - Developed predictive models using Python and machine learning
+                        techniques to analyze customer data, resulting in a 15% increase in sales.
+                        <br />
+                        - Collaborated with cross-functional teams to implement data-driven
+                        solutions, improving operational efficiency by 10%.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container mt-5">
+            <h2 class="text-center mb-5 fw-bold">Education</h2>
+
+            <div class="edu-timeline">
+                <div class="edu-node text-center mx-3 d-flex flex-column align-items-center">
+                    <div class="bg-info rounded-circle mb-2 d-flex align-items-center justify-content-center"
+                        style="width: 48px; height: 48px">
+                        <i class="bi bi-mortarboard text-white fs-4"></i>
+                    </div>
+                    <div class="edu-text">
+                        <div class="fw-bold">Bachelor of Computer Science</div>
+                        <div class="small">University of Lampung</div>
+                        <div class="small fw-semibold">2022 - 2026</div>
+                    </div>
+                </div>
+
+                <div class="edu-connector-h mx-2"></div>
+                <div class="edu-connector-v"></div>
+
+                <div class="edu-node text-center mx-3 d-flex flex-column align-items-center">
+                    <div class="bg-info rounded-circle mb-2 d-flex align-items-center justify-content-center"
+                        style="width: 48px; height: 48px">
+                        <i class="bi bi-mortarboard text-white fs-4"></i>
+                    </div>
+                    <div class="edu-text">
+                        <div class="fw-bold">(Senior) High School</div>
+                        <div class="small">SMA Xaverius Bandar Lampung</div>
+                        <div class="small fw-semibold">2019 - 2022</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container mt-5">
+            <h2 class="text-center mb-5 fw-bold">Skills</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming Languages</h5>
+                            <p class="card-text">
+                                Python, HTML, CSS, PHP, Java, C++, JavaScript
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Laravel, Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">AI/ML</h5>
+                            <p class="card-text">TensorFlow, PyTorch, LLM, NLP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Database Management</h5>
+                            <p class="card-text">MySQL, MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Language Skills</h5>
+                            <p class="card-text">English (Fluent), Indonesian (Native)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Sections -->
+    <section id="contact" class="section bg-secondary">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contact Me</h2>
+            <div class="text-center">
+                <h5 class="mt-5">Get in touch via the following platforms:</h5>
+                <ul class="list-inline mt-4 text-center">
+                    <li class="list-inline-item">
+                        <a href="mailto:nvittoa@gmail.com" target="_blank" class="text-info fs-4 me-3"><i
+                                class="bi bi-envelope"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://wa.me/628972962336" target="_blank" class="text-info fs-4 me-3"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/nicholas-vitto-adrianto-8b376354/" target="_blank"
+                            class="text-info fs-4 me-3"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/nVITTOadrianto" target="_blank" class="text-info fs-4 me-3"><i
+                                class="bi bi-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/nvittoa03/" target="_blank" class="text-info fs-4"><i
+                                class="bi bi-instagram"></i></a>
+                    </li>
+                </ul>
+                <div class="mt-5 fw-bold">
+                    &copy; 2026 Nicholas Vitto Adrianto. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
