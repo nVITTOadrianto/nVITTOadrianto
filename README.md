@@ -1,4 +1,10 @@
-## Hi there 👋
+## Hi there 👋, I'm Nicholas Vitto Adrianto
+#### Data Scientist | Web Developer | AI/ML Engineer
+- 🌱 I’m currently learning Data Science, Web Developing, and AI/ML.
+- 💬 Ask me about Python, Web Development, AI, ML, etc.
+- 📫 How to reach me: nvittoa@gmail.com (Mail) https://nvittoadrianto.github.io/nVITTOadrianto (Portfolio)
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I don't know actually...
 
 <!--
 **nVITTOadrianto/nVITTOadrianto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
